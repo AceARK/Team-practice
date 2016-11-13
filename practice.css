@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+}
+
+.container {
+	font-family: "Helvetica";
+	text-align: center;
+	width: 100%;
+	background-color: grey; 
+	/* Weird stuff -> no color working for container. Worked in the beginning, then just stopped working.*/
+}
+
+header {
+	background-color: purple;
+	width: 100%;
+	line-height: 500%;
+}
+
+#hello-fixed {
+	background-color: green;
+	height: 200px;
+	width: 200px;
+	position: fixed;
+	top: 200px;
+	left: 50px;
+	padding: 20px;
+}
+
+#text1, #text2 {
+	background-color: pink;
+	height: 800px;
+	width: 200px;
+	margin: 40px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: blue;
+	line-height: 300%;
+	color: white;
+}
+
+#floats {
+	position: absolute;
+	top: 80px;
+	right: 50px;
+	width: 700px;
+}
+
+
+#text2 {
+	float: right;
+}
+
+/*Found 2 important points -> 
+1. Regardless of which element is given float first, the placement in html controls the order.
+2. Line-height is behaving differently for header and footer -> don't know why. 500% does not look same for both.							
+*/
+
+#text1 {
+	float: right;
+}
+
