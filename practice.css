@@ -6,31 +6,50 @@
 	font-family: "Helvetica";
 	text-align: center;
 	width: 100%;
-	background-color: grey; 
+	background-color: gray; 
 	/* Weird stuff -> no color working for container. Worked in the beginning, then just stopped working.*/
 }
 
 header {
 	background-color: purple;
 	width: 100%;
-	line-height: 500%;
+	height: 100px;
+	margin-top: 0;
+	color: white;
+	font-size: 18px;
 }
 
 #hello-fixed {
 	background-color: green;
-	height: 200px;
-	width: 200px;
-	position: fixed;
-	top: 200px;
-	left: 50px;
+	height: 800px;
+	width: 800px;
+	position: absolute;
+	top: 110px;
+	left: 700px;
 	padding: 20px;
 }
 
-#text1, #text2 {
+#orange {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: orange;
+}
+
+#text1 {
+	background-color: yellow;
+	height: 800px;
+	width: 200px;
+	margin: 20px;
+}
+
+#text2 {
 	background-color: pink;
 	height: 800px;
 	width: 200px;
-	margin: 40px;
+	margin: 20px;
 }
 
 footer {
@@ -38,15 +57,18 @@ footer {
 	bottom: 0;
 	width: 100%;
 	background-color: blue;
-	line-height: 300%;
+	height: 50px;
 	color: white;
+	padding: 20px;
+	font-size: 18px;
 }
 
 #floats {
 	position: absolute;
 	top: 80px;
 	right: 50px;
-	width: 700px;
+	width: 500px;
+	margin-top: 10px;
 }
 
 
